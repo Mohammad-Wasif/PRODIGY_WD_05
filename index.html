@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-section">
+            <input type="text" id="location-input" placeholder="Enter location">
+            <button onclick="getWeatherByLocation()">Get Weather</button>
+            <button onclick="getWeatherByCurrentLocation()">Use Current Location</button>
+        </div>
+        <div class="weather-info">
+            <div class="weather-item">
+                <div class="weather-icon"></div>
+                <div class="weather-details"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Made with ❤ by Mohd Wasif</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
